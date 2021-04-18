@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+  }
+
+.padding {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-30%, -50%);
+}
+
+.V {
+  font-weight: bold;
+}
+
+.cr {
+  background-color: #517fa4;
+}
+  
+.box {
+  height: 500px;
+  border: 1px solid none;
+  box-sizing: border-box;
+  background-color: #04C4D9;
+}
+
+.box h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
